@@ -5,5 +5,7 @@ public class HolaMundo {
         Mensaje msg = new Mensaje();
         String nombre = msg.solicitaDatos("Escribe tu nombre");
         msg.saludar(nombre);
+
+        Persona persona = new Persona("", "");
     }
 }
